@@ -19,6 +19,16 @@ body {
   line-height: 1.5;
 }
 
+/* Basic Styles */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 /* Utilities */
 .container {
   max-width: 968px;
