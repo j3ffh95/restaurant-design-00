@@ -36,9 +36,17 @@ a {
   padding: 0 40px;
 }
 
+/* Main Header */
+#main-header {
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 /* Top Header */
 .top-header {
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  padding-top: 35px;
 }
