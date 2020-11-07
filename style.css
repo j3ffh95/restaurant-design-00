@@ -2,3 +2,11 @@
   --clr-primary: #0e727b;
   --clr-secondary: #2d99a4;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
