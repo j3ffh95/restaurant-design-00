@@ -33,4 +33,12 @@ a {
 .container {
   max-width: 968px;
   margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Top Header */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
 }
