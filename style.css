@@ -50,3 +50,23 @@ a {
   justify-content: space-between;
   padding-top: 35px;
 }
+
+.top-header .logo {
+  color: #026e78;
+}
+
+.top-header .call {
+  color: #fff;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation */
+#main-header #main-nav {
+  margin-top: 40px;
+}
+
+#main-header #main-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
