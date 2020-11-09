@@ -36,9 +36,14 @@ a {
   padding: 0 40px;
 }
 
-.light {
+#main-nav .light {
   background-color: #fff;
   color: #026e78;
+}
+
+#main-nav .dark {
+  background-color: var(--clr-primary);
+  color: #fff;
 }
 
 /* Main Header */
@@ -80,12 +85,11 @@ a {
   /* padding: 15px 55px; */
 }
 
-#main-nav ul li a {
+#main-nav a {
   padding: 15px 50px;
-  /* background-color: lightblue; */
+  background-color: var(--clr-secondary);
 }
 
 #main-nav ul li a:hover {
-  background-color: red;
-  color: black;
+  opacity: 0.8;
 }
