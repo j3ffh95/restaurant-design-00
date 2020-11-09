@@ -67,6 +67,20 @@ a {
 
 #main-header #main-nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+#main-nav li {
+  /* padding: 15px 55px; */
+}
+
+#main-nav ul li a {
+  padding: 15px 50px;
+  background-color: lightblue;
+}
+
+#main-nav ul li a:hover {
+  background-color: red;
+  color: black;
 }
